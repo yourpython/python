@@ -14,6 +14,6 @@ for row in range(2,len(list(sheet.rows))):
         count  = sheet['n'+str(row)].value #医疗费总额
         bj = sheet['ab'+str(row)].value #特殊人员标记
         ID = sheet['d'+str(row)].value
-print type(count)
+
 print len(list(sheet.rows))
 #for row in range(2,len(list(sheet.rows))):

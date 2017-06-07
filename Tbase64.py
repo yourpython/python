@@ -1,6 +1,6 @@
 
 #coding=utf-8
-import base64
+import base64,codecs
 
 h ='haha'
 str =h.encode('utf-8')
@@ -11,15 +11,23 @@ deco = base64.b64decode(str1)
 print (deco)
 print (u'转为utf-8的haha：'+deco.decode('utf-8'))
 
-"""f = open("1111.docx",'rb')
-a = f.read()
+    f = codecs.open("1111.docx",'r','gb2312')
+    a = f.read()
+try:
+    print(a)
+except:
+    print ("printError")
+
+finally:
+    f.close()
+
 b=base64.b64decode(a)
-f.close()
-b1=b.decode('utf-8')
+
+b1=b
 file1 = open("123.txt",'wb')
 file1.write(b1)
 file1.close()
-print  (b1)"""
+print  (b1)
 
 """f = open('temp.jpg', 'rb')
 c = f.read()

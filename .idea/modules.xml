@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/flask/.idea/flask.iml" filepath="E:/flask/.idea/flask.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
+      <module fileurl="file://E:/project/untitled/.idea/untitled.iml" filepath="E:/project/untitled/.idea/untitled.iml" />
       <module fileurl="file://E:/vn/.idea/vn.iml" filepath="E:/vn/.idea/vn.iml" />
     </modules>
   </component>

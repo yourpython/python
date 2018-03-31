@@ -14,3 +14,5 @@ title = [item[item.find('herf =')+6:item.find('target=')] for item in title]
 title = [item.replace(' ','').replace('"','') for item in title]
 for item in title:
     print (item)
+while True:
+    pass

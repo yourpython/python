@@ -14,14 +14,14 @@ def get_news1():
     return contents,translation
 def send_news():
     try:
-        my_lover = bot.friends().search(u'python')[0]
+        my_lover = bot.friends().search(u'奇')[0]
         my_lover.send(get_news1()[0])
         my_lover.send(get_news1()[1])
         my_lover.send(u'来自小语')
         t = Timer(86400,send_news)
         t.start()
     except:
-        my_lover = bot.friends().search(u'奇')[0]
+        my_lover = bot.friends().search(u'python')[0]
         my_lover.send(u'发送消息失败')
 
 if __name__ == "__main__":
